@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>classes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <div class="myTitle">
+
+                <h1><i class="fas fa-book-open" style="color:#0275d8;"></i> My <span style="color: #0275d8;">Book</span> List</h1>
+            </div>
+            <div class="myForm">
+                <form action="">
+                    <label for="title">Title:</label> <br>
+                    <input type="text" id="title" placeholder="Title...">
+                    <br> <br>
+                    <label for="Author">Author:</label> <br>
+                    <input type="text" id="author" placeholder="Author...">
+                    <br> <br>
+                    <label for="isbn">ISBN:</label> <br>
+                    <input type="number" id="isbn" placeholder="isbn...">
+                    <br> <br>
+                    <button class="btn" type="submit">ADD BOOK</button>
+                </form>
+            </div>
+            <div class="myTable">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Books</th>
+                            <th>Author</th>
+                            <th>isbn</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="myList"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
